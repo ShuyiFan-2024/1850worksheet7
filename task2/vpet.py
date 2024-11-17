@@ -40,7 +40,7 @@ class VirtualPet:
         return self.energy
 
     def __str__(self):
-        return f"{self.name} with {self.energy} energy and {self.hunger} hunger level."
+        return f"{self.name} with {self.energy} energy points and {self.hunger} hunger level."
     
 
 pet1=VirtualPet("Lily",23,33)
